@@ -18,8 +18,6 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm install
-    - name: Run app
-      run: npm run start
     - name: Statr UI test
       run: npm run test:ui
     - name: Statr unit test
