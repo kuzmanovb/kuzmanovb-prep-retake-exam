@@ -18,6 +18,8 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm install
+    - name: Install playwright
+      run: npx playwright install
     - name: Statr UI test
       run: npm run test:ui
     - name: Statr unit test
